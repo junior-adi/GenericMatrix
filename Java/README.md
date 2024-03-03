@@ -78,8 +78,8 @@ System.out.printf("%.2f%n", mat3x3.get(0, 0)); // Output: 1.00
 Execute simple arithmetic operations such as addition, subtraction, and scalar multiplication:
 
 ```java
-Matrix<Double> matAdd = mat3x3.add(matFromList);
-Matrix<Double> matSub = mat3x3.subtract(matFromList);
+Matrix<Double> matAdd = mat3x3.plus(matFromList);
+Matrix<Double> matSub = mat3x3.minus(matFromList);
 Matrix<Double> matMulScalar = mat3x3.multiply(2.0);
 ```
 
@@ -98,11 +98,11 @@ if (mat3x3.isSquare()) {
 
 ## Step 6: Matrix Multiplication
 
-Multiply two matrices together using either the standard ijk algorithm or the faster IKJ algorithm:
+Multiply two matrices together using the faster IKJ algorithm:
 
 ```java
-Matrix<Double> matMultiplicationIjk = mat3x3.ikjalgorithm1D(matFromList);
-Matrix<Double> matMultiplicationStandard = mat3x3.mult(matFromList);
+Matrix<Double> matMultiplication = mat3x3.times(matFromList);
+Matrix<Double> matMultiplication = mat3x3.multiply(matFromList);
 ```
 
 ## Step 7: Printing Matrices
@@ -110,7 +110,7 @@ Matrix<Double> matMultiplicationStandard = mat3x3.mult(matFromList);
 Print out the contents of a matrix using built-in methods or customized string representation:
 
 ```java
-mat3x3.printAsMatrix();
+mat3x3.print();
 mat3x3.printAsMatlab();
 ```
 
