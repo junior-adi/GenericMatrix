@@ -1,4 +1,4 @@
-# Introduction to the Java Generic Matrix Class `(JAGMA)`
+# Introduction to the Java Generic Matrix class `(JAGMA)`
 
 The **Java Generic Matrix** class or **`JAGMA`**, commonly referred to as `GenericMatrix`, is a versatile Java class designed to represent a matrix of numerical values. It leverages Java's generics to support a wide range of number types, including `Integer`, `Double`, `Float`, and more, as long as they are subclasses of the `Number` class. This class provides a variety of constructors for creating matrices from different data sources, such as arrays, 2D arrays, or by specifying the number of rows and columns. Additionally, it offers a comprehensive suite of methods for performing matrix operations like addition, subtraction, multiplication, transposition, determinant calculation, and more.
 
