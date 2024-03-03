@@ -1,23 +1,23 @@
 # Introduction to the Java Generic Matrix Class `(JAGMA)`
 
-The Java Generic Matrix class, commonly referred to as `GenericMatrix` or `JAGMA`, is a versatile Java class designed to represent a matrix of numerical values. It leverages Java's generics to support a wide range of number types, including `Integer`, `Double`, `Float`, and more, as long as they are subclasses of the `Number` class. This class provides a variety of constructors for creating matrices from different data sources, such as arrays, 2D arrays, or by specifying the number of rows and columns. Additionally, it offers a comprehensive suite of methods for performing matrix operations like addition, subtraction, multiplication, transposition, determinant calculation, and more.
+The **Java Generic Matrix** class or **`JAGMA`**, commonly referred to as `GenericMatrix`, is a versatile Java class designed to represent a matrix of numerical values. It leverages Java's generics to support a wide range of number types, including `Integer`, `Double`, `Float`, and more, as long as they are subclasses of the `Number` class. This class provides a variety of constructors for creating matrices from different data sources, such as arrays, 2D arrays, or by specifying the number of rows and columns. Additionally, it offers a comprehensive suite of methods for performing matrix operations like addition, subtraction, multiplication, transposition, determinant calculation, and more.
 
 # Overview of JAGMA
 
-`JAGMA` is a matrix class that efficiently handles numerical data. It utilizes a one-dimensional array to store matrix elements in a row-major order, facilitating efficient data access and manipulation. The class includes functionalities for setting and retrieving elements, reshaping the matrix, flattening it into a one-dimensional array, and conducting eigenvalue decomposition. It also provides methods to check if the matrix has converged, and to verify if the matrix is symmetric and positive definite.
+**`JAGMA`** is a matrix class that efficiently handles numerical data. It utilizes a one-dimensional array to store matrix elements in a row-major order, facilitating efficient data access and manipulation. The class includes functionalities for setting and retrieving elements, reshaping the matrix, flattening it into a one-dimensional array, and conducting eigenvalue decomposition. It also provides methods to check if the matrix has converged, and to verify if the matrix is symmetric and positive definite.
 
-`JAGMA` is designed to work seamlessly with any subclass of the `Number` class, encompassing `Integer`, `Double`, `Float`, `Long`, and others. This design allows for broad applicability across various contexts and applications.
+**`JAGMA`** is designed to work seamlessly with any subclass of the `Number` class, encompassing `Integer`, `Double`, `Float`, `Long`, and others. This design allows for broad applicability across various contexts and applications.
 
 # Supported Data Types
 
-The generic type `T` in `JAGMA` refers to any type of `Number`. This means the matrix can store elements of the following types:
+The generic type **`T`** in `JAGMA` refers to any type of `Number`. This means the matrix can store elements of the following types:
 
-- `Byte` (not `byte`)
-- `Short` (not `short`)
-- `Integer` (not `int`)
-- `Long` (not `long`)
-- `Float` (not `float`)
-- `Double` (not `double`)
+- **`Byte`** (not `byte`)
+- **`Short`** (not `short`)
+- **`Integer`** (not `int`)
+- **`Long`** (not `long`)
+- **`Float`** (not `float`)
+- **`Double`** (not `double`)
 
 # Getting Started with JAGMA
 
@@ -26,7 +26,7 @@ The generic type `T` in `JAGMA` refers to any type of `Number`. This means the m
 First, import the `Matrix` class into your Java file. If the class is part of a package, include the package name in the import statement. For instance:
 
 ```java
-import mypackage.Matrix;
+import ci.abidjan.adi.JAGMA;
 ```
 
 Replace `mypackage` with the actual package name where the `Matrix` class is located.
