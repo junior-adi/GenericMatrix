@@ -61,7 +61,7 @@ public class Matrix<T extends Number> {
 	 * 
 	 * <pre>
 	 * Matrix<Integer> matrix = new Matrix<>();
-	 * matrix.setDimensions(3, 3);
+	 * matrix.set(3, 3);
 	 * matrix.setValues(new Integer[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 });
 	 * </pre>
 	 * </p>
