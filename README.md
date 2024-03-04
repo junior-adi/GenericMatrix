@@ -9,7 +9,7 @@ While several efficient pre-built matrix classes exist, their documentation can 
 
 To bridge this gap and foster simplicity, I created this **Generic Matrix** class. My goal is to provide a clear, well-documented, and easy-to-understand foundation for manipulating matrices in Java. This class can be used in various personal projects and offers a stepping stone for further refinement and exploration.
 
-The project is ongoing, and I welcome contributions from anyone seeking to improve and expand its functionality. Together, we can build a valuable resource for learning and utilizing matrix operations in Java, C, and C++. Implementations in other languages are also welcome.
+The project is ongoing, and I welcome contributions from anyone seeking to improve and expand its functionalities. Together, we can build a valuable resource for learning and utilizing matrix operations in Java, C, and C++. Implementations in other languages are also welcome.
 
 **Our goal is to make this resource accessible to everyone, regardless of their location or preferred programming language.**
 
@@ -34,7 +34,7 @@ The benefits of embracing the DIY philosophy in programming are numerous:
 * **Increased Confidence:** Overcoming challenges and successfully building projects fosters a sense of confidence and self-reliance, empowering programmers to tackle more complex problems in the future.
 * **Greater Creativity:** The freedom to experiment and customize solutions allows programmers to tap into their creativity and develop unique approaches to problems.
 
-However, it's important to remember that the DIY approach doesn't advocate for reinventing the wheel every time. Utilizing existing libraries, frameworks, and open-source code is essential for efficient development. `The key lies in understanding how these tools work`, adapting them to specific needs, and contributing back to the community whenever possible.
+However, it's important to remember that the DIY approach doesn't advocate for reinventing the wheel every time. Utilizing existing libraries, frameworks, and open-source codes is essential for efficient development. `The key lies in understanding how these tools work`, adapting them to specific needs, and contributing back to the community whenever possible.
 
 The DIY philosophy is a powerful tool for any programmer, fostering a growth mindset, encouraging continuous learning, and empowering individuals to build their own unique path in the ever-evolving world of programming.
 
@@ -66,7 +66,7 @@ I recognize the value of existing libraries, but for me, the journey of creation
 
 # Contributors Guidelines for the Matrix Class
 
-Welcome to the Java Generic Matrix class (JAGMA) project! We're excited to have you contribute to this project. Here are some guidelines to help you get started.
+Welcome to the `Java Generic Matrix` class **`(JAGMA)`** project! We're excited to have you contribute to this project. Here are some guidelines to help you get started.
 
 ## Getting Started
 
