@@ -28,9 +28,6 @@ First, import the `Matrix` class into your Java file. If the class is part of a 
 ```java
 import ci.abidjan.adi.JAGMA;
 ```
-
-Replace `mypackage` with the actual package name where the `Matrix` class is located.
-
 ## Step 2: Creating a Matrix Instance
 
 Create a new `Matrix` object using one of the available constructors. Here are a few examples:
